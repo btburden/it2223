@@ -1,7 +1,9 @@
 <html>
-<head>
-<h1>Main Page</h1>
-  <h2>Background</h2>
-  <h3>Pages</h3>
-</head>
+  <head>
+    <h2>Background</h2>
+    <h3>Pages</h3>
+  </head>
+  <body>
+    <!-- Your content goes here -->
+  </body>
 </html>
