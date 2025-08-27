@@ -1,26 +1,43 @@
-# MyNewRepo
-Awesome repo with my super cool website
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Cool Website</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header>
+    <h1>Welcome to My Project</h1>
+    <nav>
+      <ul>
+        <li><a href="#features">Features</a></li>
+        <li><a href="#about">About</a></li>
+      </ul>
+    </nav>
+  </header>
 
-## Website
-A simple HTML website showcasing our project.
+  <main>
+    <section id="features">
+      <h2>Features</h2>
+      <ul>
+        <li>Responsive design</li>
+        <li>Modern layout</li>
+        <li>Easy navigation</li>
+      </ul>
+    </section>
 
-## Features
-- Responsive design
-- Clean and modern layout
-- Easy to navigate
+    <section id="about">
+      <h2>About This Project</h2>
+      <p>This website showcases our awesome work!</p>
+    </section>
+  </main>
 
-## Getting Started
-1. Clone the repository
-2. Open `index.html` in your browser
+  <footer>
+    <p>Created by Braxton Burden</p>
+  </footer>
 
-## Structure
-- `index.html`: Main page
-- `css/`: Stylesheet directory
-- `js/`: JavaScript directory
-- `images/`: Images assets
-
-## Contributors
-Braxton burden
-
-
+  <script src="js/script.js"></script>
+</body>
+</html>
 
