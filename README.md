@@ -1,23 +1,23 @@
-l (Home Page)
+# MyCourse Home Page
 
-Welcome to MyCourse Home Page
+Welcome to MyCourse Home Page!
 
-->Chapter 2 (Linked Page on Home Page)
+## Chapters
 
--->HoP
+### [Chapter 1](chapter1/index.html)
 
---->HoP 1
+### [Chapter 2 Overview](chapter2.html)
+- **HoP**
+  - [HoP 1](chapter2/hop1.html)
+- **Assignment**
+  - *No assignments listed yet.*
 
--->Assignment
+### [Chapter 3 Overview](chapter3.html)
+- **HoP**
+  - [HoP 1](chapter3/hop1.html)
+  - [HoP 2](chapter3/hop2.html)
 
---->Assignment 1
+## Group Project
 
-->Chapter 3 (Linked Page on Home Page)
-
--->HoP
-
---->HoP 1
-
---->HoP 2
-
-->Project (Linked Page on Home Page)
+- [Go to Group Project Overview](project.html)
+- [View Group Project](project/index.html)
