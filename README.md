@@ -1,4 +1,36 @@
- <li><a href="Ch3Assignment/advantage.html">Go to Chapter 3: CSS Advantages</a></li>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>MyCourse Home Page</title>
+</head>
+<body>
+  <h1>Welcome to MyCourse Home Page</h1>
+
+  <h2>Chapter 1</h2>
+  <p><a href="chapter1/index.html">Go to Chapter 1</a></p>
+
+  <h2>Chapter 2</h2>
+  <p><a href="chapter2.html">Go to Chapter 2 Overview</a></p>
+  <ul>
+    <li>HoP
+      <ul>
+        <li><a href="chapter2/hop1.html">HoP 1</a></li>
+      </ul>
+    </li>
+    <li>Assignment
+      <ul>
+        <li><a href="chapter2/assignment1.html">Assignment 1</a></li>
+      </ul>
+    </li>
+  </ul>
+
+  <h2>Chapter 3</h2>
+  <p><a href="chapter3.html">Go to Chapter 3 Overview</a></p>
+  <ul>
+    <li>HoP
+      <ul>
+        <li><a href="Ch3Assignment/advantage.html">Go to Chapter 3: CSS Advantages</a></li>
         <li><a href="chapter3/hop2.html">HoP 2</a></li>
       </ul>
     </li>
