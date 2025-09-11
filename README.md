@@ -1,23 +1,27 @@
-# MyCourse Home Page
+ <li><a href="Ch3Assignment/advantage.html">Go to Chapter 3: CSS Advantages</a></li>
+        <li><a href="chapter3/hop2.html">HoP 2</a></li>
+      </ul>
+    </li>
+  </ul>
 
-Welcome to MyCourse Home Page!
+  <h2>Chapter 4</h2>
+  <p><a href="chapter4.html">Go to Chapter 4 Overview</a></p>
+  <ul>
+    <li>HoP
+      <ul>
+        <li><a href="chapter4/hop1.html">HoP 1</a></li>
+        <li><a href="chapter4/hop2.html">HoP 2</a></li>
+      </ul>
+    </li>
+    <li>Assignment
+      <ul>
+        <li><a href="chapter4/assignment1.html">Assignment 1</a></li>
+      </ul>
+    </li>
+  </ul>
 
-## Chapters
-
-### [Chapter 1](chapter1/index.html)
-
-### [Chapter 2 Overview](chapter2.html)
-- **HoP**
-  - [HoP 1](chapter2/hop1.html)
-- **Assignment**
-  - *No assignments listed yet.*
-
-### [Chapter 3 Overview](chapter3.html)
-- **HoP**
-  - [HoP 1](chapter3/hop1.html)
-  - [HoP 2](chapter3/hop2.html)
-
-## Group Project
-
-- [Go to Group Project Overview](project.html)
-- [View Group Project](project/index.html)
+  <h2>Group Project</h2>
+  <p><a href="project.html">Go to Group Project Overview</a></p>
+  <p><a href="project/index.html">View Group Project</a></p>
+</body>
+</html>
