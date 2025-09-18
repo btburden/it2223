@@ -3,57 +3,56 @@
 <head>
   <meta charset="UTF-8">
   <title>MyCourse Home Page</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 2em; }
+    h1 { color: #333; }
+    ul { list-style-type: none; padding-left: 0; }
+    li { margin: 0.5em 0; }
+    .chapter { font-weight: bold; margin-top: 1em; }
+    .sub { margin-left: 2em; }
+    .subsub { margin-left: 4em; font-style: italic; }
+    a { text-decoration: none; color: #0074D9; }
+    a:hover { text-decoration: underline; }
+  </style>
 </head>
 <body>
   <h1>Welcome to MyCourse Home Page</h1>
-
-  <h2>Chapter 1</h2>
-  <p><a href="chapter1/index.html">Go to Chapter 1</a></p>
-
-  <h2>Chapter 2</h2>
-  <p><a href="chapter2.html">Go to Chapter 2 Overview</a></p>
   <ul>
-    <li>HoP
+    <li class="chapter">
+      <a href="chapter2.html">Chapter 2</a>
       <ul>
-        <li><a href="chapter2/hop1.html">HoP 1</a></li>
+        <li class="sub">HoP
+          <ul>
+            <li class="subsub">HoP 1</li>
+          </ul>
+        </li>
+        <li class="sub">Assignment
+          <ul>
+            <li class="subsub">Assignment 1</li>
+          </ul>
+        </li>
       </ul>
     </li>
-    <li>Assignment
+    <li class="chapter">
+      <a href="chapter3.html">Chapter 3</a>
       <ul>
-        <li><a href="chapter2/assignment1.html">Assignment 1</a></li>
+        <li class="sub">HoP
+          <ul>
+            <li class="subsub">HoP 1</li>
+            <li class="subsub">HoP 2</li>
+          </ul>
+        </li>
       </ul>
+    </li>
+    <li class="chapter">
+      <a href="chapter4.html">Chapter 4</a>
+    </li>
+    <li class="chapter">
+      <a href="chapter6.html">Chapter 6</a>
+    </li>
+    <li class="chapter">
+      <a href="project.html">Project</a>
     </li>
   </ul>
-
-  <h2>Chapter 3</h2>
-  <p><a href="chapter3.html">Go to Chapter 3 Overview</a></p>
-  <ul>
-    <li>HoP
-      <ul>
-        <li><a href="Ch3Assignment/advantage.html">Go to Chapter 3: CSS Advantages</a></li>
-        <li><a href="chapter3/hop2.html">HoP 2</a></li>
-      </ul>
-    </li>
-  </ul>
-
-  <h2>Chapter 4</h2>
-  <p><a href="chapter4.html">Go to Chapter 4 Overview</a></p>
-  <ul>
-    <li>HoP
-      <ul>
-        <li><a href="chapter4/hop1.html">HoP 1</a></li>
-        <li><a href="chapter4/hop2.html">HoP 2</a></li>
-      </ul>
-    </li>
-    <li>Assignment
-      <ul>
-        <li><a href="chapter4/assignment1.html">Assignment 1</a></li>
-      </ul>
-    </li>
-  </ul>
-
-  <h2>Group Project</h2>
-  <p><a href="project.html">Go to Group Project Overview</a></p>
-  <p><a href="project/index.html">View Group Project</a></p>
 </body>
 </html>
