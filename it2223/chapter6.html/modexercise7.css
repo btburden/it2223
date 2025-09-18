@@ -1,0 +1,16 @@
+/* Link colors */
+a:link {
+  color: #1a73e8; /* Unvisited */
+  background-color: #f0f8ff;
+}
+
+a:visited {
+  color: #6a1b9a; /* Visited */
+  background-color: #f3e5f5;
+}
+
+a:hover {
+  color: #d32f2f; /* Hover */
+  background-color: #ffe0e0;
+  text-decoration: none; /* Remove underline on hover */
+}

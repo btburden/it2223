@@ -1,0 +1,24 @@
+<style>
+  #mainnav {
+    background-color: green;
+  }
+
+  img {
+    border: none;
+  }
+
+  main {
+    background-image: url('heroback.jpg');
+    background-repeat: no-repeat;
+  }
+</style>
+<p>
+  Take a guided kayak tour while you <br>explore the shoreline of scenic Door County.
+</p>
+
+<nav id="mainnav">
+  <a href="index.html"><img src="home.gif" alt="Home" width="90"></a>
+  <a href="tours.html"><img src="tours.gif" alt="Tours" width="90"></a>
+  <a href="reservations.html"><img src="reservations.gif" alt="Reservations" width="190"></a>
+  <a href="contact.html"><img src="contact.gif" alt="Contact" width="130"></a>
+</nav>
