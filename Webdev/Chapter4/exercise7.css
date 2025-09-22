@@ -1,0 +1,43 @@
+/* Footer styling */
+footer {
+  background-color: lightblue;
+  font-family: Arial, sans-serif;
+  color: darkblue;
+  padding: 10px;
+  border: 1px dashed darkblue;
+}
+
+/* ID selector for notice */
+#notice {
+  width: 80%;
+  margin: 0 auto;
+}
+
+/* Headline class with dotted underline */
+.headline {
+  color: teal;
+  border-bottom: 2px dotted teal;
+  font-size: 1.5em;
+  padding-bottom: 5px;
+}
+
+/* h1 styling */
+h1 {
+  font-size: 4em;
+  font-family: sans-serif;
+  background-color: rgba(255, 255, 255, 0.5);
+  text-shadow: 2px 2px 5px gray;
+  padding: 10px;
+}
+
+/* ID selector for section */
+#section {
+  font-size: small;
+  color: red;
+  font-family: Arial, sans-serif;
+  background-color: white;
+  width: 80%;
+  margin: 20px auto;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
+  padding: 15px;
+}
