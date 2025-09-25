@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Lighthouse Island Bistro</title>
+  <link rel="stylesheet" href="lighthouse.css">
+</head>
+<body>
+  <div id="wrapper">
+    <header>
+      <a href="#">Lighthouse Island Bistro</a>
+    </header>
+
+    <main>
+      <h2>Welcome to the Bistro</h2>
+      <p>Enjoy our fresh seafood, relaxing atmosphere, and beautiful ocean views. We’re proud to serve locally sourced ingredients and offer a menu that changes with the seasons.</p>
+      <img src="lighthouse.jpg" alt="Lighthouse" id="floatimg">
+    </main>
+
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Menu</a></li>
+        <li><a href="#">Directions</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+
+    <footer>
+      &copy; 2025 Lighthouse Island Bistro. All rights reserved.
+    </footer>
+  </div>
+</body>
+</html> 
