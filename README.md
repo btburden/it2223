@@ -67,6 +67,27 @@
   <li><a href="chapter6/Ch6HOP6-3.htm">Assignment: Chapter 6 Hop 6-3</a></li>
   <li><a href="chapter6/modExercise7.c" download>Download C File: modExercise7.c</a></li>
 </ul>
+      <h2>Chapter 7</h2>
+<a href="chapter7/chapter7.html">Go to Chapter 7</a>
+<p><a href="chapter7">Go to Chapter 7 Overview</a></p>
+
+<ul>
+  <li>HoP
+    <ul>
+      <li><a href="chapter7/Ch7HOP7-4.html">HoP 7.4: Grid Layout</a></li>
+      <li><a href="chapter7/Ch7HOP7-5.html">HoP 7.5: Grid Template Areas</a></li>
+      <li><a href="chapter7/Ch7HOP7-7.html">HoP 7.7: Centering with Flex/Grid</a></li>
+    </ul>
+  </li>
+</ul>
+
+<h2>Chapter 7 Assignments</h2>
+<ul>
+  <li><a href="chapter7/Ch7HOP7-4.html">Assignment: Grid Layout</a></li>
+  <li><a href="chapter7/Ch7HOP7-5.html">Assignment: Grid Template Areas</a></li>
+  <li><a href="chapter7/Ch7HOP7-7.html">Assignment: Centered Heading</a></li>
+</ul>
+
       </ul>
     </li>
   </ul>
