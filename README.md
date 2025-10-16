@@ -50,6 +50,14 @@
   <li><a href="chapter4/ch4hop2.html">Assignment: Chapter 4 Hop 2</a></li>
 </ul>
   </ul>
+<h2>Chapter 5 Assignments</h2>
+  <ul>
+    <li><a href="chapter5/yourlastname.html">Assignment: Your Last Name Page</a></li>
+    <li><a href="chapter5/mylinks.html">Assignment: My Links</a></li>
+    <li><a href="chapter5/myhobby.html">Assignment: My Hobby</a></li>
+    <li><a href="chapter5/mymobilelinks.html">Assignment: My Mobile Links</a></li>
+  </ul>
+
 
   <h2>Group Project</h2>
   <p><a href="project.html">Go to Group Project Overview</a></p>
