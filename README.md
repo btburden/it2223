@@ -45,7 +45,7 @@
   <ul>
     <<h2>Chapter 4 Assignments</h2>
 <ul>
-  <li><a href="sitemap.html">Assignment: Your Last Name Page</a></li>
+  <li><a href="sitemap.html">Assignment:My Gaming Experience</a></li>
   <li><a href="chapter4/ch4hop1.html">Assignment: Chapter 4 Hop 1</a></li>
   <li><a href="chapter4/ch4hop2.html">Assignment: Chapter 4 Hop 2</a></li>
 </ul>
