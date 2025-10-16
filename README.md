@@ -52,7 +52,7 @@
   </ul>
 <h2>Chapter 5 Assignments</h2>
   <ul>
-    <li><a href="chapter5/yourlastname.html">Assignment: Your Last Name Page</a></li>
+    <li><a href="chapter5/sitemap.html">Assignment: Your Last Name Page</a></li>
     <li><a href="chapter5/mylinks.html">Assignment: My Links</a></li>
     <li><a href="chapter5/myhobby.html">Assignment: My Hobby</a></li>
     <li><a href="chapter5/mymobilelinks.html">Assignment: My Mobile Links</a></li>
