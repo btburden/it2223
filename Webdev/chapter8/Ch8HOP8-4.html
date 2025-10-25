@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Hands-On Practice 8.4 - Pseudo-classes</title>
+  <style>
+    /* Base styles from 8.3 */
+    table {
+      width: 600px;
+      border: 2px solid #000066;
+      border-collapse: collapse;
+    }
+    
+    td, th {
+      border: 2px solid #000066;
+      padding: 5px;
+    }
+    
+    caption {
+      font-family: 'Times New Roman', serif;
+      font-weight: bold;
+      font-size: 2em;
+      padding-bottom: 5px;
+    }
+    
+    /* Step 5: Configure the first row */
+    tr:first-of-type {
+      background-color: #000066;
+      color: #EAEAEA;
+    }
+    
+    /* Required to override default <th> alignment */
+    th {
+      text-align: left;
+    }
+
+    /* Step 3: Configure even-numbered rows */
+    tr:nth-of-type(even) {
+      background-color: #EAEAEA;
+    }
+  </style>
+</head>
+<body>
+
+  <table>
+    <caption>Lighthouse Island Bistro Specialty Coffee Menu</caption>
+    <tr>
+      <th>Specialty Coffee</th>
+      <th>Description</th>
+      <th>Price</th>
+    </tr>
+    <tr>
+      <td>Lite Latte</td>
+      <td>Indulge in a shot of espresso with steamed, skim milk</td>
+      <td>$3.50</td>
+    </tr>
+    <tr>
+      <td>Mocha Latte</td>
+      <td>Choose dark or milk chocolate with steamed milk</td>
+      <td>$4.00</td>
+    </tr>
+    <tr>
+      <td>MCP Latte</td>
+      <td>A luscious mocha latte with caramel and pecan syrup</td>
+      <td>$4.50</td>
+    </tr>
+  </table>
+
+</body>
+</html>
