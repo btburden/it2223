@@ -83,7 +83,9 @@
         <li><a href="chapter9/form2.html">Assignment: HOP 9.2 (form2.html)</a></li>
         <li><a href="chapter9/form4.html">Assignment: HOP 9.4 (form4.html)</a></li>
         <li><a href="chapter9/contact.html">Assignment: HOP 9.6 (contact.html)</a></li>
-        <li><a href="chapter9/form5.html">Assignment: HOP 9.5 (form5.html)</a></li>
+       <li><a href="chapter9/musicform.html">Assignment: Music Survey (musicform.html)</a></li>
+        <li><a href="chapter9/newform.html">Assignment: New Form Elements (newform.html)</a></li>
+      </ul>
       </ul>
     </li>
   </ul>
