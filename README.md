@@ -86,7 +86,6 @@
        <li><a href="chapter9/musicform.html">Assignment: Music Survey (musicform.html)</a></li>
         <li><a href="chapter9/newform.html">Assignment: New Form Elements (newform.html)</a></li>
       </ul>
-      </ul>
     </li>
   </ul>
 
