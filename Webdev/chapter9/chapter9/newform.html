@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>New Form Elements</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 20px; }
+    div, fieldset { margin-bottom: 15px; }
+    label { display: inline-block; width: 120px; }
+    fieldset label { width: auto; }
+  </style>
+</head>
+<body>
+
+  <h1>Form Elements Test Page</h1>
+
+  <form action="https://webdevbasics.net/scripts/demo.php" method="post">
+
+    <input type="hidden" name="userid" value="sample_user_123">
+
+    <div>
+      <label for="username">User Name:</label>
+      <input type="text" name="username" id="username" maxlength="30">
+    </div>
+
+    <div>
+      <label for="pwd">Password:</label>
+      <input type="password" name="pword" id="pwd">
+    </div>
+
+    <fieldset>
+      <legend>Favorite day of the week:</legend>
+      <input type="radio" name="fav_day" id="sun" value="Sunday"> <label for="sun">Sunday</label><br>
+      <input type="radio" name="fav_day" id="mon" value="Monday"> <label for="mon">Monday</label><br>
+      <input type="radio" name="fav_day" id="tue" value="Tuesday"> <label for="tue">Tuesday</label><br>
+      <input type="radio" name="fav_day" id="wed" value="Wednesday"> <label for="wed">Wednesday</label><br>
+      <input type="radio" name="fav_day" id="thu" value="Thursday"> <label for="thu">Thursday</label><br>
+      <input type="radio" name="fav_day" id="fri" value="Friday"> <label for="fri">Friday</label><br>
+      <input type="radio" name="fav_day" id="sat" value="Saturday"> <label for="sat">Saturday</label><br>
+    </fieldset>
+
+    <div>
+      <label for="social">Favorite Social Site:</label>
+      <select name="social" id="social">
+        <option value="facebook">Facebook</option>
+        <option value="twitter">Twitter</option>
+        <option value="instagram">Instagram</option>
+        <option value="tiktok">TikTok</option>
+        <option value="linkedin">LinkedIn</option>
+      </select>
+    </div>
+
+    <fieldset>
+      <legend>Shipping Address</legend>
+      <label for="addr1">Address Line 1:</label>
+      <input type="text" name="AddressLine1" id="addr1"><br>
+      <label for="addr2">Address Line 2:</label>
+      <input type="text" name="AddressLine2" id="addr2"><br>
+      <label for="city">City:</label>
+      <input type="text" name="City" id="city"><br>
+      <label for="state">State:</label>
+      <input type="text" name="State" id="state" size="2" maxlength="2"><br>
+      <label for="zip">Zip:</label>
+      <input type="text" name="Zip" id="zip" size="5" maxlength="5"><br>
+    </fieldset>
+
+    <input type="image" src="signup.gif" alt="Sign Up Button" width="120">
+
+  </form>
+
+</body>
+</html>

@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Music Survey</title>
+  <style>
+    /* CSS to configure the form display */
+    body {
+      font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+      background-color: #f0f2f5;
+      margin: 0;
+      padding: 20px;
+    }
+
+    h1 {
+      color: #333;
+      text-align: center;
+    }
+
+    form {
+      max-width: 650px;
+      margin: 20px auto;
+      padding: 25px;
+      background-color: #ffffff;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    fieldset {
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      padding: 15px;
+      margin-bottom: 20px;
+    }
+
+    legend {
+      font-weight: bold;
+      font-size: 1.1em;
+      color: #555;
+      padding: 0 10px;
+    }
+
+    label {
+      display: block;
+      font-weight: bold;
+      margin-bottom: 5px;
+      color: #444;
+    }
+    
+    /* Make labels for checkboxes/radios normal weight */
+    fieldset label {
+      display: inline-block;
+      font-weight: normal;
+      margin-left: 5px;
+      margin-bottom: 8px;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    input[type="date"],
+    textarea,
+    select {
+      width: 95%;
+      padding: 10px;
+      margin-bottom: 15px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      font-size: 1em;
+    }
+
+    textarea {
+      resize: vertical; /* Allow vertical resize only */
+    }
+
+    input[type="submit"],
+    input[type="reset"] {
+      background-color: #007bff;
+      color: white;
+      padding: 12px 20px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      font-size: 1em;
+      margin-right: 10px;
+    }
+
+    input[type="reset"] {
+      background-color: #6c757d;
+    }
+
+    input[type="submit"]:hover {
+      background-color: #0056b3;
+    }
+
+    input[type="reset"]:hover {
+      background-color: #5a6268;
+    }
+
+    footer {
+      text-align: center;
+      margin-top: 30px;
+      font-size: 0.9em;
+      color: #777;
+    }
+
+    footer a {
+      color: #007bff;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Music Survey 🎵</h1>
+
+  <form action="https://webdevbasics.net/scripts/demo.php" method="post">
+    <div>
+      <label for="name">Name:</label>
+      <input type="text" name="name" id="name" required>
+    </div>
+
+    <div>
+      <label for="email">E-Mail:</label>
+      <input type="email" name="email" id="email" required>
+    </div>
+
+    <fieldset>
+      <legend>Select Your Favorite Types of Music:</legend>
+      <input type="checkbox" name="genre" id="pop" value="pop">
+      <label for="pop">Pop</label><br>
+      <input type="checkbox" name="genre" id="classical" value="classical">
+      <label for="classical">Classical</label><br>
+      <input type="checkbox" name="genre" id="rock" value="rock">
+      <label for="rock">Rock</label><br>
+      <input type="checkbox" name="genre" id="folk" value="folk">
+      <label for="folk">Folk</label><br>
+      <input type="checkbox" name="genre" id="rap" value="rap">
+      <label for="rap">Rap</label><br>
+      <input type="checkbox" name="genre" id="other" value="other">
+      <label for="other">Other</label>
+    </fieldset>
+
+    <fieldset>
+      <legend>Select how often you purchase Music:</legend>
+      <input type="radio" name="purchase" id="weekly" value="weekly">
+      <label for="weekly">Weekly</label><br>
+      <input type="radio" name="purchase" id="few_cds" value="few_cds" checked>
+      <label for="few_cds">A few CDs each year</label><br>
+      <input type="radio" name="purchase" id="monthly" value="monthly">
+      <label for="monthly">Monthly</label><br>
+      <input type="radio" name="purchase" id="never" value="never">
+      <label for="never">Never purchase</label>
+    </fieldset>
+
+    <div>
+      <label for="location">Select the locations you listen to Music:</label>
+      <select name="location" id="location" size="3" multiple>
+        <option value="home">At home</option>
+        <option value="car">In the car</option>
+        <option value="anywhere">Anywhere</option>
+        <option value="work">At work</option>
+        <option value="gym">At the gym</option>
+      </select>
+    </div>
+
+    <div>
+      <label for="listen_date">What date do you typically listen?</label>
+      <input type="date" name="listen_date" id="listen_date">
+    </div>
+
+    <div>
+      <label for="role">What role does music play in your life?</label>
+      <textarea name="role" id="role" cols="60" rows="3"></textarea>
+    </div>
+
+    <div>
+      <input type="submit" value="Submit">
+      <input type="reset" value="Reset">
+    </div>
+
+  </form>
+
+  <footer>
+    <p>
+      BT Burden<br>
+      <a href="mailto:btburden@mail.lipscomb.edu">btburden@mail.lipscomb.edu</a>
+    </p>
+  </footer>
+
+</body>
+</html>

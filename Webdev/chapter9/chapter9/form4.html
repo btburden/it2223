@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Contact Form (HOP 9.4)</title>
+  <style>
+    fieldset { 
+      width: 300px; 
+      border: 2px ridge mediumblue; 
+      padding: 10px; 
+    }
+    legend { 
+      font-weight: bold; 
+      font-family: Georgia, "Times New Roman", serif; 
+    }
+    label { 
+      font-family: Arial, sans-serif; 
+      /* Added to make form usable */
+      display: block;
+      margin-top: 10px;
+    }
+    input, textarea {
+      display: block;
+    }
+  </style>
+</head>
+<body>
+
+  <h2>Contact Us</h2>
+  
+  <form>
+    <fieldset>
+      <legend>Customer Information</legend>
+      
+      <label for="myName">Name:</label>
+      <input type="text" name="myName" id="myName">
+      
+      <label for="myEmail">E-mail:</label>
+      <input type="text" name="myEmail" id="myEmail">
+      
+      <label for="myComments">Comments:</label>
+      <textarea name="myComments" id="myComments" rows="2" cols="20"></textarea>
+      
+      <input type="submit" value="Submit">
+    </fieldset>
+  </form>
+
+</body>
+</html>
