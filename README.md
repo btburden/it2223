@@ -66,7 +66,14 @@
       </ul>
     </li>
   </ul>
-
+<h2>Chapter 8</h2>
+  <p><a href="chapter8">Go to Chapter 8 Overview</a></p>
+  <h2>Chapter 8 Assignments</h2>
+  <ul>
+    <li><a href="chapter8/Ch8HOP8-2.html">Assignment: Chapter 8 Hop 8-2</a></li>
+    <li><a href="chapter8/Ch8HOP8-3.html">Assignment: Chapter 8 Hop 8-3</a></li>
+    <li><a href="chapter8/Ch8HOP8-4.html">Assignment: Chapter 8 Hop 8-4</a></li>
+  </ul>
   <h2>Chapter 9</h2>
   <p><a href="chapter9">Go to Chapter 9 Overview</a></p>
   <ul>
